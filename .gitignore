@@ -1,0 +1,20 @@
+# 编译产物
+bin/
+*.exe
+*.dll
+*.lib
+
+# 本地截图 / 测试数据
+*.png
+!docs/*.png
+screenshot*.png
+shot_*.png
+*.tsv
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
